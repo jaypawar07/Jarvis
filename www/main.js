@@ -34,4 +34,12 @@ $(document).ready(function () {
             sync: true
         }
     })
+
+    //mic button click event
+
+    $("#micButton").click(function () { 
+        $("#Oval").attr("hidden",true);
+        $("#SiriWave").attr("hidden",false);
+        
+    });
 });
